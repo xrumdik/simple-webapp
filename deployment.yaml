@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: demo
+  name: webapp
   labels:
-    app: demo
+    app: webapp
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: demo
+      app: webapp
   template:
     metadata:
       labels:
-        app: demo
+        app: webapp
     spec:
       containers:
         - name: demo
-          image: cloudnatived/demo:hello
+          image: aryabinin2022/webapp
           ports:
           - containerPort: 8888
