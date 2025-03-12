@@ -1,1 +1,1 @@
-module github.com/cloudnativedevops/demo/hello
+module https://github.com/xrumdik/simple-webapp
