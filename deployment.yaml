@@ -15,7 +15,7 @@ spec:
         app: webapp
     spec:
       containers:
-        - name: demo
+        - name: webapp
           image: aryabinin2022/webapp
           ports:
           - containerPort: 8888
