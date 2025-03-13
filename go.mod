@@ -1,1 +1,1 @@
-module https://github.com/xrumdik/simple-webapp
+module github.com/xrumdik/simple-webapp
