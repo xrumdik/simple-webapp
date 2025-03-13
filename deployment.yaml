@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: webapp
+  name: simple-webapp
   labels:
-    app: webapp
+    app: simple-webapp
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: webapp
+      app: simple-webapp
   template:
     metadata:
       labels:
-        app: webapp
+        app: simple-webapp
     spec:
       containers:
-        - name: webapp
-          image: aryabinin2022/webapp
+        - name: simple-webapp
+          image: aryabinin2022/simple-webapp
           ports:
           - containerPort: 8888
