@@ -7,7 +7,7 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "Hello, World, 世界, Мир, peace, Frieden, paix, paz, pace, paz, vrede, pokój, mír, mier, мир, мір, мир, mir, mir, mir, béke, pace, ειρήνη, barış, rauha, fred, fred, fred, rahu, miers, taika, 和平, 平和, 평화, hòa bình, शांति, سلام, שלום, صلح, امن, สันติภาพ, энх тайван, მშვიდობა, խաղաղություն, бейбітшілік, tinchlik, тынычлык, тыныс, аhар, тынчтык, parahatçylyk, сулҳ, sülh")
+	fmt.Fprintln(w, "Hello, world, 世界, мир, peace, Frieden, paix, paz, pace, paz, vrede, pokój, mír, mier, мір, mir, mir, mir, béke, pace, ειρήνη, barış, rauha, fred, fred, fred, rahu, miers, taika, 和平, 平和, 평화, hòa bình, शांति, سلام, שלום, صلح, امن, สันติภาพ, энх тайван, მშვიდობა, խաղաղություն, бейбітшілік, tinchlik, тынычлык, тыныс, аhар, тынчтык, parahatçylyk, сулҳ, sülh")
 }
 
 func main() {
