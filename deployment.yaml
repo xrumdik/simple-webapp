@@ -5,7 +5,7 @@ metadata:
   labels:
     app: simple-webapp
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: simple-webapp
@@ -19,3 +19,10 @@ spec:
           image: aryabinin2022/simple-webapp
           ports:
           - containerPort: 8888
+          resources:
+            limits:
+              memory: "128Mi"
+              cpu: "500m"
+            requests:
+              memory: "64Mi"
+              cpu: "250m"
